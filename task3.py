@@ -13,11 +13,12 @@ def is_correct(sequence):
 
 
 def is_valid(sequence):
-   result = re.match("^\d[+*\-/]\d=\d", sequence)
-   if result:
-       return True
-   return False
-        
+    result = re.match(r"^\d[+*\-/]\d=\d", sequence)
+    if result:
+        return True
+    return False
+
+
 sequence = input()
 
 if is_valid(sequence) and not is_correct(sequence):
@@ -26,4 +27,3 @@ elif not is_valid(sequence):
     print('ERROR')
 elif is_valid(sequence) and is_correct(sequence):
     print('YES')
-

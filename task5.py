@@ -10,5 +10,6 @@ def selfDividingNumbers(left, right):
             out.append(n)
     return out
 
+
 left, right = int(input()), int(input())
 print(selfDividingNumbers(left, right))

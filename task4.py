@@ -2,7 +2,7 @@ num_of_commands = int(input())
 
 result = []
 
-for command in range(num_of_commands+1):
+for command in range(num_of_commands + 1):
     command = input().split(' ')
     if 'insert' in command:
         result.insert(int(command[1]), command[2])
