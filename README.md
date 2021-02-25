@@ -13,7 +13,7 @@ Module that have some basic monitoring features:
 ### Installation
 
 Just cd into directory and
-`pip install .'
+`pip install .`
 
 ### Uninstallation
 
