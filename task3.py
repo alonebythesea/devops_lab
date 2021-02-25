@@ -1,9 +1,6 @@
 import re
 
 
-operators = ['-', '*', '/', '+']
-
-
 def is_correct(sequence):
     eq = sequence.split('=')
     true_result = eval(eq[0])
