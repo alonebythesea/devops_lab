@@ -1,0 +1,30 @@
+SNAPSHOT 0: TIMESTAMP: Thu Feb 25 23:12:53 2021:
+Overall CPU load: 0.0
+Overall memory usage: 36.4
+Overall virtual memory usage: 24.7
+IO information: read_bytes 1627002880 / write_bytes                 435337216
+Network information: bytes sent 3683688 / bytes recieved                 32020241
+SNAPSHOT 0: TIMESTAMP: Thu Feb 25 23:13:05 2021:
+Overall CPU load: 33.3
+Overall memory usage: 36.4
+Overall virtual memory usage: 24.7
+IO information: read_bytes 1627002880 / write_bytes                 435488768
+Network information: bytes sent 3683688 / bytes recieved                 32022573
+SNAPSHOT 0: TIMESTAMP: Thu Feb 25 23:14:05 2021:
+Overall CPU load: 0.4
+Overall memory usage: 36.4
+Overall virtual memory usage: 24.7
+IO information: read_bytes 1627004416 / write_bytes                 435841024
+Network information: bytes sent 3684069 / bytes recieved                 32038327
+SNAPSHOT 0: TIMESTAMP: Thu Feb 25 23:15:27 2021:
+Overall CPU load: 0.0
+Overall memory usage: 36.4
+Overall virtual memory usage: 24.7
+IO information: read_bytes 1627004416 / write_bytes                 437819392
+Network information: bytes sent 3699011 / bytes recieved                 32083977
+SNAPSHOT 1: TIMESTAMP: Thu Feb 25 23:16:27 2021:
+Overall CPU load: 0.5
+Overall memory usage: 36.4
+Overall virtual memory usage: 24.7
+IO information: read_bytes 1627004416 / write_bytes                 438065152
+Network information: bytes sent 3699011 / bytes recieved                 32095894
