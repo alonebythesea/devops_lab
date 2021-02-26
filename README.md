@@ -12,13 +12,11 @@ Module that have some basic monitoring features:
 
 ### Installation
 
-Just cd into directory and
+To import this module just cd into directory and
 `pip install .`
 
-### Uninstallation
-
-`pip uninstall snapshot`
-
+To make distro:
+`python setup.py sdist`
 
 ### Usage
 
