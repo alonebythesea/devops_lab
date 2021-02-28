@@ -13,7 +13,8 @@ Module that have some basic monitoring features:
 ### Installation
 
 To import this module just cd into directory and
-`pip install .`
+`pip install -U .`
+
 
 To make distro:
 `python setup.py sdist`
@@ -24,4 +25,4 @@ Script may take two arguments. The first one will indicate after how much time w
 Second one is file type(txt or json)
 
 Example:
-`python snapshot.py 1 txt` after this command script will write to txt file every 1 min.
+`snapshot 1 txt` after this command script will write to txt file every 1 min.

@@ -21,12 +21,12 @@ class Monitoring:
         return 'Overall virtual memory usage: {0}\n'.format(pu.virtual_memory().percent)
 
     def get_disk_io(self):
-        return 'IO information: read_bytes {0} / write_bytes \
-                {1}\n'.format(pu.disk_io_counters().read_bytes, pu.disk_io_counters().write_bytes)
+        return 'IO information: read_bytes {0} / write_bytes ' \
+            '{1}\n'.format(pu.disk_io_counters().read_bytes, pu.disk_io_counters().write_bytes)
 
     def get_net_io(self):
-        return 'Network information: bytes sent {0} / bytes recieved \
-                {1}\n'.format(pu.net_io_counters().bytes_sent, pu.net_io_counters().bytes_recv)
+        return 'Network information: bytes sent {0} / bytes recieved ' \
+            '{1}\n'.format(pu.net_io_counters().bytes_sent, pu.net_io_counters().bytes_recv)
 
     def get_header(self, count):
         return 'SNAPSHOT {0}: TIMESTAMP: {1}:'.format(count, self.get_time())
