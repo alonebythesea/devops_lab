@@ -13,8 +13,4 @@ def is_leap(year):
 if __name__ == "__main__":
     year = int(input())
     leap = is_leap(year)
-
-    if leap:
-        print("True")
-    else:
-        print("False")
+    print(leap)
