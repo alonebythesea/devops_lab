@@ -33,7 +33,8 @@ class Monitoring:
 
     def arguments_parser(self):
         parser = ap.ArgumentParser()
-        parser.add_argument('timestamp', type=int, default=5, help='Enter timestamp(in minutes)', nargs='?')
+        parser.add_argument('timestamp', type=int, default=5, help='Enter timestamp(in minutes)',
+                            nargs='?')
         parser.add_argument('output', type=str, default='txt',
                             help='Enter output type(json or txt)', nargs='?')
         return parser.parse_args()
