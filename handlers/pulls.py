@@ -15,4 +15,6 @@ def get_pulls(state):
     elif state is None:
         pull = requests.get(f'https://api.github.com/repos/alenaPy/devops_lab/pulls', params=params)
         return pull.json()
+    else:
+        return 'ERROR'
     return pull.json()['items']
