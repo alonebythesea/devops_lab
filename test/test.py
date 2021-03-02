@@ -42,5 +42,6 @@ def test_responce_code():
     nose.tools.ok_(get_pulls('closed')[0], 200)
     nose.tools.ok_(get_pulls(None)[0], 200)
 
+
 if __name__ == '__main__':
     nose.run()
